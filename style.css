@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+}
+
+.fontFamily1 {
+  font-family: "Rubik Dirt", cursive;
+}
+.fontFamily2 {
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+.fontFamily3 {
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.size-1 {
+  font-size: 1rem;
+}
+.size-1_5 {
+  font-size: 1.5rem;
+}
+.size-2 {
+  font-size: 2rem;
+}
+.size-3 {
+  font-size: 3rem;
+}
+.size-4 {
+  font-size: 4rem;
+}
+.size-6 {
+  font-size: 6rem;
+}
+.size-7 {
+  font-size: 7rem;
+}
+.shadow {
+  text-shadow: 4px 4px 10px black;
+}
+.underline {
+  text-decoration: underline;
+}
+.nav {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("resource/images/anime3.png");
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+.nav > .imgText {
+  position: relative;
+  text-align: center;
+  top: 30%;
+}
+.nav > .navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+}
+.nav > .navbar > a#lets-start {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  color: white;
+}
+.nav > .navbar > a#lets-start {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    color: white;
+  }
+.nav > .navbar > a#navIcon {
+  display: inline-block;
+  width: 69%;
+  text-align: center;
+  color: white;
+}
+.nav > .navbar > .animeGameLink {
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+}
+.nav > .navbar > .animeGameLink > a {
+  margin: 0 0.5em;
+  color: white;
+}
+.section {
+  margin: 0rem 13rem;
+  margin-top: 5rem;
+  height: fit-content;
+  /* border: 2px solid black; */
+}
+.section > .card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section > .card-section > .card {
+  display: flex;
+  width: 12rem;
+  height: 17rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1rem auto;
+}
