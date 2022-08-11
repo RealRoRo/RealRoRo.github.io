@@ -45,6 +45,9 @@ a {
 .nav {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("resource/images/anime3.png");
+
+
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
   color: white;
@@ -66,20 +69,18 @@ a {
   color: white;
 }
 .nav > .navbar > div.buttonSection {
-    display: inline-block;
-    width: 15%;
-    text-align: center;
-    background-color: transparent;
-    
-  }
-  .nav > .navbar > div.buttonSection > button {
-    color: white;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 0.8rem 1rem;
-    border-radius: .6rem;
-
-  }
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  background-color: transparent;
+}
+.nav > .navbar > div.buttonSection > button {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+}
 
 .nav > .navbar > a#navIcon {
   display: inline-block;
@@ -100,7 +101,6 @@ a {
   margin: 0rem 13rem;
   margin-top: 5rem;
   height: fit-content;
-  /* border: 2px solid black; */
 }
 .section > .card-section {
   display: flex;
@@ -115,4 +115,55 @@ a {
   border: 2px solid black;
   border-radius: 5px;
   margin: 1rem auto;
+}
+.body-content{
+
+}
+.footer {
+  
+  background: fixed linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+  url("resource/images/gracia-dharma-qTlbO6mkQH0-unsplash.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+.footer > div#formSection {
+  color: white;
+} 
+form {
+  width: 50%;
+  margin: auto;
+  /* padding: 1rem;  */
+}
+form > input[type="text"],
+input[type="email"],
+textarea,
+input[type="button"] {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 0.3rem;
+  border: 1px solid rgb(172, 169, 169);
+  padding: 0.6rem 0.1rem;
+  border-radius: 0.3rem;
+}
+
+#heading-footer {
+  text-align: center;
+}
+.footer > #social{
+  width: fit-content;
+  margin: auto;
+}
+.footer > #social > img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  filter: invert(1);
+  margin: 1rem 2rem;
+  cursor: pointer;
+}
+.footer > #copyright{
+  color: aliceblue;
+  text-align: center;
+  margin-top: .3rem;
 }

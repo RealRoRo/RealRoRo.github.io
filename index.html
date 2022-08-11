@@ -1,78 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Rubik+Dirt&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Rubik+Dirt&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet" />
 
-    <title>roro</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <audio  autoplay preload="auto" loop id="soundCassette">
-      <source src="resource/audios/infinity-heroes-epic-inspiring-adventurous-soundtrack-9278.mp3" type="">
-      <source src="resource/audios/anima-main-7426.mp3">
-      <source onclick="" src="resource/audios/171216-japan-style-nostalgic-spring-piano-20556.mp3">
-        <source onclick="" src ="resource/audios/Badass Anime ! Anime ! English.mp3">
-    </audio> 
-    <div class="nav">
-      <div class="navbar fontFamily2 size-1_5">
-        <!-- <a href="" id="lets-start">Lets Start</a>   -->
-        <div class="buttonSection">
+  <title>roro</title>
+</head>
 
-          <button class="fontFamily3 size-1_5" id="audioToggle" onclick="soundToggle()">Sound OFF</button>
-        </div>
-        <a class="size-3 fontFamily1" href="" id="navIcon">RoRo</a>
-        <div class="animeGameLink">
-          <a href="" id="anime">anime</a>
-          <a href="" id="games">games</a>
-        </div>
+<body>
+  <audio autoplay preload="auto" loop id="soundCassette">
+    <source onclick="" src="resource/audios/171216-japan-style-nostalgic-spring-piano-20556.mp3" />
+    <source src="resource/audios/infinity-heroes-epic-inspiring-adventurous-soundtrack-9278.mp3" type="" />
+    <source src="resource/audios/anima-main-7426.mp3" />
+    <source onclick="" src="resource/audios/Badass Anime ! Anime ! English.mp3" />
+  </audio>
+  <div class="nav">
+    <div class="navbar fontFamily2 size-1_5">
+      <!-- <a href="" id="lets-start">Lets Start</a>   -->
+      <div class="buttonSection">
+        <button class="fontFamily3 size-1_5" id="audioToggle" onclick="soundToggle()">
+          Sound OFF
+        </button>
       </div>
-      <div class="imgText">
-        <h1 class="fontFamily3 size-4 shadow">Hey, I Am Ronak Warrier</h1>
-        <h2 class="fontFamily3 size-2 shadow">You can call me...</h2>
-        <h2 class="fontFamily3 size-7 shadow">RoRo</h2>
-        <h2 class="fontFamily3 size-2 shadow">I watch Anime & play Games</h2>
+      <a class="size-3 fontFamily1" href="" id="navIcon">RoRo</a>
+      <div class="animeGameLink fontFamily3">
+        <a href="#animeSection" id="anime">anime</a>
+        <a href="#gamesSection" id="games">games</a>
       </div>
     </div>
-    <div class="body-content fontFamily2">
-      <div class="section">
-        <h1>Anime</h1>
-        <div class="card-section">
-          <div class="card">naruto</div>
-          <div class="card">naruto</div>
-          <div class="card">naruto</div>
-        </div>
-      </div>
-      <div class="section">
-        <h1>Games</h1>
-        <div class="card-section">
-          <div class="card">naruto</div>
-          <div class="card">naruto</div>
-          <div class="card">naruto</div>
-        </div>
+    <div class="imgText">
+      <h1 class="fontFamily3 size-4 shadow">Hey, I Am Ronak Warrier</h1>
+      <h2 class="fontFamily3 size-2 shadow">You can call me...</h2>
+      <h2 class="fontFamily3 size-7 shadow">RoRo</h2>
+      <h2 class="fontFamily3 size-2 shadow">I watch Anime & play Games</h2>
+    </div>
+  </div>
+  <div class="body-content fontFamily2">
+    <div class="section" id="animeSection">
+      <h1>Anime</h1>
+      <div class="card-section">
+        <div class="card">naruto</div>
+        <div class="card">naruto</div>
+        <div class="card">naruto</div>
       </div>
     </div>
-    <div class="footer">
+    <div class="section" id="gamesSection">
+      <h1>Games</h1>
+      <div class="card-section">
+        <div class="card">naruto</div>
+        <div class="card">naruto</div>
+        <div class="card">naruto</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer ">
+    <div id="formSection" class="fontFamily3 size-1_5 shadow">
       <form action=""></form>
-      copyright
+      <h1 id="heading-footer">Lets Talk anime or Play Games Together!!</h1>
+      <form action="">
+        <label for="name">Name: </label><br />
+        <input type="text" name="" id="name" /><br />
+        <label for="email">Email: </label><br />
+        <input type="email" name="" id="email" /><br />
+        <label for="interest">Interest: </label>
+        <input type="checkbox" name="interest" id="interestAnime" />
+        <label for="interestAnime">Anime</label>
+        <input type="checkbox" name="interest" id="interestGames" />
+        <label for="interestGames">Games</label><br />
+        <label for="message">Any Messages for me?</label><br />
+        <textarea name="" id="message" rows="5"></textarea>
+        <input type="button" class="submit fontFamily3 size-1_5" value="Submit">
+      </form>
     </div>
-  </body>
-  <script defer src="script.js"></script>
+    <div id="social">
+      <img src="resource/icons/insta.png" alt="" id="insta">
+      <img src="resource/icons/github.png" alt=""id="github">
+      <img src="resource/icons/fb.png" alt="" id="fb">
+    </div>
+    <div id="copyright" class="shadow">Copyright © 2022 Ronak Warrier</div>
+  </div>
+</body>
+<script defer src="script.js"></script>
+
 </html>
