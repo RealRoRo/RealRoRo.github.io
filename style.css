@@ -65,12 +65,22 @@ a {
   text-align: center;
   color: white;
 }
-.nav > .navbar > a#lets-start {
+.nav > .navbar > div.buttonSection {
     display: inline-block;
     width: 15%;
     text-align: center;
-    color: white;
+    background-color: transparent;
+    
   }
+  .nav > .navbar > div.buttonSection > button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 0.8rem 1rem;
+    border-radius: .6rem;
+
+  }
+
 .nav > .navbar > a#navIcon {
   display: inline-block;
   width: 69%;

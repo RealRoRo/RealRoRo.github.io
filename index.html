@@ -25,12 +25,19 @@
   </head>
 
   <body>
-    <audio autoplay preload="auto" loop>
+    <audio  autoplay preload="auto" loop id="soundCassette">
+      <source src="resource/audios/infinity-heroes-epic-inspiring-adventurous-soundtrack-9278.mp3" type="">
+      <source src="resource/audios/anima-main-7426.mp3">
+      <source onclick="" src="resource/audios/171216-japan-style-nostalgic-spring-piano-20556.mp3">
         <source onclick="" src ="resource/audios/Badass Anime ! Anime ! English.mp3">
     </audio> 
     <div class="nav">
       <div class="navbar fontFamily2 size-1_5">
-        <a href="" id="lets-start">Lets Start</a>
+        <!-- <a href="" id="lets-start">Lets Start</a>   -->
+        <div class="buttonSection">
+
+          <button class="fontFamily3 size-1_5" id="audioToggle" onclick="soundToggle()">Sound OFF</button>
+        </div>
         <a class="size-3 fontFamily1" href="" id="navIcon">RoRo</a>
         <div class="animeGameLink">
           <a href="" id="anime">anime</a>
@@ -41,7 +48,7 @@
         <h1 class="fontFamily3 size-4 shadow">Hey, I Am Ronak Warrier</h1>
         <h2 class="fontFamily3 size-2 shadow">You can call me...</h2>
         <h2 class="fontFamily3 size-7 shadow">RoRo</h2>
-        <h2 class="fontFamily3 size-2 shadow">I love Anime & Games</h2>
+        <h2 class="fontFamily3 size-2 shadow">I watch Anime & play Games</h2>
       </div>
     </div>
     <div class="body-content fontFamily2">
@@ -67,4 +74,5 @@
       copyright
     </div>
   </body>
+  <script defer src="script.js"></script>
 </html>
