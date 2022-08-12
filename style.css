@@ -21,6 +21,9 @@ a {
 .size-1 {
   font-size: 1rem;
 }
+.size-1_2 {
+  font-size: 1.2rem;
+}
 .size-1_5 {
   font-size: 1.5rem;
 }
@@ -103,14 +106,19 @@ height: 100%;
     border: none;
     margin: 0rem 1rem;
   }
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .nav > .navbar > .links > .dropdown > .dropbtn > img{
+    width: 25px;
+    height: 25px;
+    
+  }
+  .dropdown-content a:hover, .dropdown:hover  {
     background-color: red;
   }
   .nav > .navbar > .links > .dropdown > .dropdown-content {
     display: none;
     position: absolute;
     right: 0px;
-    background-color: rgba(255, 255, 255, 0.623);
+    background-color: rgba(255, 255, 255, 0.63);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -168,6 +176,17 @@ height: 100%;
   border: 2px solid black;
   border-radius: 5px;
   margin: 1rem;
+}
+.section > .card-section > .card > .card-image{
+
+}
+.section > .card-section > .card > .card-content{
+  display: none;
+  text-align: center;
+  margin: 0.3rem;
+}
+.section > .card-section > .card > .card-content > h1,p{
+  margin-top: 1rem;
 }
 .footer {
   

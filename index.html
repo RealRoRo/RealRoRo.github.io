@@ -1,118 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Rubik+Dirt&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="style.css" />
+    <title>roro</title>
+  </head>
 
-  <title>roro</title>
-</head>
-
-<body>
-  <audio autoplay preload="auto" loop id="soundCassette">
-    <source onclick="" src="resource/audios/171216-japan-style-nostalgic-spring-piano-20556.mp3" />
-    <source src="resource/audios/infinity-heroes-epic-inspiring-adventurous-soundtrack-9278.mp3" type="" />
-    <source src="resource/audios/anima-main-7426.mp3" />
-    <source onclick="" src="resource/audios/Badass Anime ! Anime ! English.mp3" />
-  </audio>
-  <div class="nav">
-    <div class="navbar fontFamily2 size-1_5">
-      <div class="buttonSection">
-        <button class="fontFamily3 size-1_5" id="audioToggle" onclick="soundToggle()">
-          Sound OFF
-        </button>
-      </div>
-      <a class="size-3 fontFamily1" href="#" id="navIcon">RoRo</a>
-      <div class="links fontFamily3">
-        <div class="dropdown">
-          <button class="dropbtn">
-            <img src="resource/icons/Hamburger_icon.svg.png" alt="" width="20px" height="20px">
+  <body>
+    <audio autoplay preload="auto" loop id="soundCassette">
+      <source
+        onclick=""
+        src="resource/audios/171216-japan-style-nostalgic-spring-piano-20556.mp3"
+      />
+      <source
+        src="resource/audios/infinity-heroes-epic-inspiring-adventurous-soundtrack-9278.mp3"
+        type=""
+      />
+      <source src="resource/audios/anima-main-7426.mp3" />
+      <source
+        onclick=""
+        src="resource/audios/Badass Anime ! Anime ! English.mp3"
+      />
+    </audio>
+    <div class="nav">
+      <div class="navbar fontFamily2 size-1_5">
+        <div class="buttonSection">
+          <button
+            class="fontFamily3 size-1_5"
+            id="audioToggle"
+            onclick="soundToggle()"
+          >
+            Sound OFF
           </button>
-          <div class="dropdown-content">
-            <a href="#animeSection" id="anime">anime</a>
-            <a href="#gamesSection" id="games">games</a>
-            <a href="#formSection" id="contact">Contact me</a>
+        </div>
+        <a class="size-3 fontFamily1" href="#" id="navIcon">RoRo</a>
+        <div class="links fontFamily3">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <img src="resource/icons/Hamburger_icon.svg.png" alt="" />
+            </button>
+            <div class="dropdown-content">
+              <a href="#animeSection" id="anime">anime</a>
+              <a href="#gamesSection" id="games">games</a>
+              <a href="#formSection" id="contact">Contact me</a>
+            </div>
+          </div>
+          <a href="#animeSection" id="anime">anime</a>
+          <a href="#gamesSection" id="games">games</a>
+          <a href="#formSection" id="contact">Contact me</a>
+        </div>
+      </div>
+      <div class="imgText">
+        <h1 class="fontFamily3 size-4 shadow">Hey, I Am Ronak Warrier</h1>
+        <h2 class="fontFamily3 size-2 shadow">You can call me...</h2>
+        <h2 class="fontFamily3 size-7 shadow">RoRo</h2>
+        <h2 class="fontFamily3 size-2 shadow">I watch Anime & play Games</h2>
+      </div>
+    </div>
+    <div class="body-content fontFamily2">
+      <div class="section" id="animeSection">
+        <h1>Anime</h1>
+        <div class="card-section">
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/naruto.jpg"
+              alt=""
+              id="naruto-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">Naruto</h1>
+              <p class="size-1_2">
+                It tells the story of Naruto Uzumaki, a young ninja who seeks
+                recognition from his peers and dreams of becoming the Hokage,
+                the leader of his village.
+              </p>
+              <p class="rating size-2">roroRating: 8.9/10</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/one-piece.jpeg"
+              alt=""
+              id="onepiece-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">One piece</h1>
+              <p class="size-1_2">
+                Monkey D. Luffy wants to become the King of all pirates. Along
+                his quest he creates many friends and The gang sets sail to
+                unknown seas in Grand Line to find the treasure of One Piece.
+              </p>
+              <p class="rating size-2">roroRating: 9.5/10</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/onepunchman.jpg"
+              alt=""
+              id="onepunchman-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">One Punch Man</h1>
+              <p class="size-1_2">
+                It tells the story of Saitama, a superhero who, because he can
+                defeat any opponent with a single punch, grows bored from a lack
+                of challenge.
+              </p>
+              <p class="rating size-2">roroRating: 9.8/10</p>
+            </div>
           </div>
         </div>
-        <a href="#animeSection" id="anime">anime</a>
-        <a href="#gamesSection" id="games">games</a>
-        <a href="#formSection" id="contact">Contact me</a>
-
+      </div>
+      <div class="section" id="gamesSection">
+        <h1>Games</h1>
+        <div class="card-section">
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/VALORANT.jpg"
+              alt=""
+              id="valorant-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">Valorant</h1>
+              <p class="size-1_2">
+                Riot Games presents VALORANT: a 5v5 character-based tactical FPS
+                where precise gunplay meets unique agent abilities.
+              </p>
+              <p class="rating size-2">roroRating: 9/10</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/Apex_legends_cover.jpg"
+              alt=""
+              id="apex-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">Apex Legends</h1>
+              <p class="size-1_2">
+                Apex Legends is a free-to-play battle royale-hero shooter game
+                developed by Respawn Entertainment and published by Electronic
+                Arts.
+              </p>
+              <p class="rating size-2">roroRating: 9.3/10</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="resource/images/dota.jpg"
+              alt=""
+              id="dota-card"
+            />
+            <div class="card-content fontFamily3">
+              <h1 class="size-2 fontFamily3">Dota 2</h1>
+              <p class="size-1_2">
+                Dota 2 is a 2013 multiplayer online battle arena video game
+                developed and published by Valve. The game is a sequel to
+                Defense of the Ancients,
+              </p>
+              <p class="rating size-2">roroRating: 8.5/10</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="imgText">
-      <h1 class="fontFamily3 size-4 shadow">Hey, I Am Ronak Warrier</h1>
-      <h2 class="fontFamily3 size-2 shadow">You can call me...</h2>
-      <h2 class="fontFamily3 size-7 shadow">RoRo</h2>
-      <h2 class="fontFamily3 size-2 shadow">I watch Anime & play Games</h2>
-    </div>
-  </div>
-  <div class="body-content fontFamily2">
-    <div class="section" id="animeSection">
-      <h1>Anime</h1>
-      <div class="card-section">
-        <div class="card">
-          <img src="resource/images/naruto.jpg" alt="">
-        </div>
-        <div class="card">
-          <img src="resource/images/one-piece.jpeg" alt="">
-        </div>
-        <div class="card">
-          <img src="resource/images/onepunchman.jpg" alt="">
-        </div>
+    <div class="footer">
+      <div id="formSection" class="fontFamily3 size-1_5 shadow">
+        <form action=""></form>
+        <h1 id="heading-footer">Lets Talk anime or Play Games Together!!</h1>
+        <form action="">
+          <label for="name">Name: </label><br />
+          <input type="text" name="" id="name" /><br />
+          <label for="email">Email: </label><br />
+          <input type="email" name="" id="email" /><br />
+          <label for="interest">Interest: </label>
+          <input type="checkbox" name="interest" id="interestAnime" />
+          <label for="interestAnime">Anime</label>
+          <input type="checkbox" name="interest" id="interestGames" />
+          <label for="interestGames">Games</label><br />
+          <label for="message">Any Messages for me?</label><br />
+          <textarea name="" id="message" rows="5"></textarea>
+          <input
+            type="button"
+            class="submit fontFamily3 size-1_5"
+            value="Submit"
+          />
+        </form>
       </div>
-    </div>
-    <div class="section" id="gamesSection">
-      <h1>Games</h1>
-      <div class="card-section">
-        <div class="card">
-          <img src="resource/images/VALORANT.jpg" alt="">
-        </div>
-        <div class="card">
-        <img src="resource/images/Apex_legends_cover.jpg" alt="">
-        </div>
-        <div class="card">
-          <img src="resource/images/dota.jpg" alt="">
-        </div>
+      <div id="social">
+        <img src="resource/icons/insta.png" alt="" id="insta" />
+        <img src="resource/icons/github.png" alt="" id="github" />
+        <img src="resource/icons/fb.png" alt="" id="fb" />
       </div>
+      <div id="copyright" class="shadow">Copyright © 2022 Ronak Warrier</div>
     </div>
-  </div>
-  <div class="footer ">
-    <div id="formSection" class="fontFamily3 size-1_5 shadow">
-      <form action=""></form>
-      <h1 id="heading-footer">Lets Talk anime or Play Games Together!!</h1>
-      <form action="">
-        <label for="name">Name: </label><br />
-        <input type="text" name="" id="name" /><br />
-        <label for="email">Email: </label><br />
-        <input type="email" name="" id="email" /><br />
-        <label for="interest">Interest: </label>
-        <input type="checkbox" name="interest" id="interestAnime" />
-        <label for="interestAnime">Anime</label>
-        <input type="checkbox" name="interest" id="interestGames" />
-        <label for="interestGames">Games</label><br />
-        <label for="message">Any Messages for me?</label><br />
-        <textarea name="" id="message" rows="5"></textarea>
-        <input type="button" class="submit fontFamily3 size-1_5" value="Submit">
-      </form>
-    </div>
-    <div id="social">
-      <img src="resource/icons/insta.png" alt="" id="insta">
-      <img src="resource/icons/github.png" alt=""id="github">
-      <img src="resource/icons/fb.png" alt="" id="fb">
-    </div>
-    <div id="copyright" class="shadow">Copyright © 2022 Ronak Warrier</div>
-  </div>
-</body>
-<script defer src="script.js"></script>
-
+  </body>
+  <script defer src="script.js"></script>
 </html>
